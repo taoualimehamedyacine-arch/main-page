@@ -1159,7 +1159,10 @@ img {
 .fade-up.active {
     transform: translateY(0);
 }
-
+.warda{
+    height: 250px;
+    background-color: #e9ecef;
+}
 @keyframes float {
     0% { transform: translateY(0); }
     50% { transform: translateY(-15px); }
@@ -1365,5 +1368,3 @@ img {
         grid-template-columns: 1fr;
         max-width: 500px;
         margin: 0 auto;
-    }
-}
